@@ -1,0 +1,39 @@
+body{
+    background-color: #282828;
+}
+h1{
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 130px;
+    text-align: center;
+    font-family: "poppins",sans-serif;
+    z-index: -1;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
+img{
+    width: 405px;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    z-index: 0;
+
+    animation: spin 8s infinite linear;
+}
+@keyframes spin{
+    100%{
+        transform: translate(-50%,-50%) rotate(360deg);
+    }
+}
+h1:nth-child(3){
+    color: transparent;
+    z-index: 1;
+    -webkit-text-stroke: 3px aliceblue;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
