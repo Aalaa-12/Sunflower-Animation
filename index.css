@@ -20,7 +20,8 @@ img{
     top: 53%;
     left: 50%;
     z-index: 0;
-
+    margin: 0;
+    padding: 0;
     animation: spin 8s infinite linear;
 }
 @keyframes spin{
